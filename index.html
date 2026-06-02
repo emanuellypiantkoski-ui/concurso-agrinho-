@@ -1,1 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroParaná - A Força da Nossa Terra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <div class="container header-container">
+            <div class="logo">Agro<span>Paraná</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#destaques">Destaques</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>O Coração Agrícola do Brasil</h1>
+            <p>Descubra como o Paraná se tornou referência em produtividade, tecnologia e sustentabilidade no campo.</p>
+            <a href="#destaques" class="btn">Ver Indicadores</a>
+        </div>
+    </section>
+
+    <section id="destaques" class="features container">
+        <h2>Liderança e Produtividade</h2>
+        <p class="section-subtitle">O estado se destaca no cenário nacional com safras recordes e cooperativismo forte.</p>
+        
+        <div class="cards-grid">
+            <div class="card">
+                <h3>Grãos & Cereais</h3>
+                <p>Um dos maiores produtores de soja e milho do país, utilizando tecnologia de precisão.</p>
+                <span class="badge">Alta Produtividade</span>
+            </div>
+            <div class="card">
+                <h3>Cooperativismo</h3>
+                <p>O modelo paranaense de cooperativas é referência global em gestão e partilha de resultados.</p>
+                <span class="badge">União Forte</span>
+            </div>
+            <div class="card">
+                <h3>Sustentabilidade</h3>
+                <p>Práticas de plantio direto e manejo correto da água garantem o futuro da nossa terra.</p>
+                <span class="badge">Eco-Friendly</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <div class="container about-container">
+            <div class="about-text">
+                <h2>Tecnologia que Alimenta o Mundo</h2>
+                <p>O agronegócio do Paraná combina a tradição do homem do campo com a modernidade das agrotechs. Da semente ao porto de Paranaguá, cada etapa é monitorada para garantir o mais alto padrão de qualidade internacional.</p>
+                <button id="btnSaibaMais" class="btn">Clique para saber mais</button>
+                <p id="textoOculto" class="hidden">O Porto de Paranaguá é o principal canal de escoamento da produção paranaense, conectando as cooperativas locais a mais de 100 países pelo mundo.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact container">
+        <h2>Fale Conosco</h2>
+        <p>Quer saber mais sobre o agro paranaense ou fazer parcerias? Envie uma mensagem.</p>
+        
+        <form id="formContato" class="form">
+            <input type="text" id="nome" placeholder="Seu Nome" required>
+            <input type="email" id="email" placeholder="Seu E-mail" required>
+            <textarea id="mensagem" placeholder="Sua Mensagem" rows="5" required></textarea>
+            <button type="submit" class="btn">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 AgroParaná. Desenvolvido para valorizar nossa terra.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
